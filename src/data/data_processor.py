@@ -33,3 +33,4 @@ class DataProcessor:
             df[numeric_columns] = self.scaler.fit_transform(df[numeric_columns])
         
         return df
+    
