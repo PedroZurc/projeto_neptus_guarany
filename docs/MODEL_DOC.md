@@ -1,7 +1,3 @@
-
-## `docs/MODEL_DOC.md`
-
-```markdown
 # Documentação do Modelo
 
 ## Objetivo do Modelo
