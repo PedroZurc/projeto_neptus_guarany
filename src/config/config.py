@@ -1,4 +1,5 @@
 DATA_PATH = 'N:/TI/Projetos/BI_Pedro/Python/IA/zurc/neptus_guarany/projeto_neptus_guarany/data/raw/Reservas geral.xlsx'
-PROCESSED_DATA_PATH = 'projeto_neptus_guarany/data/processed/dados_treinamento_limpo.parquet'
-MODEL_SAVE_PATH = 'project/models/model.pkl'
-METRICS_OUTPUT_PATH = 'project/results/metrics.json'
+# PROCESSED_DATA_PATH = 'projeto_neptus_guarany/data/processed/dados_treinamento_limpo.parquet'
+PROCESSED_DATA_PATH= 'N:/TI/Projetos/BI_Pedro/Python/IA/zurc/neptus_guarany/projeto_neptus_guarany/data/processed/dados_tratados.xlsx'
+MODEL_SAVE_PATH = 'N:/TI/Projetos/BI_Pedro/Python/IA/zurc/neptus_guarany/projeto_neptus_guarany/ai_models/model.pkl'
+METRICS_OUTPUT_PATH = 'N:/TI/Projetos/BI_Pedro/Python/IA/zurc/neptus_guarany/projeto_neptus_guarany/ai_results/metrics.json'

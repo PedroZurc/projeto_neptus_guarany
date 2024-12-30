@@ -22,6 +22,9 @@ class DataProcessor:
         return df_clean
     
     def feature_engineering(self, df: pd.DataFrame) -> pd.DataFrame:
+        
+        # print(df.columns)
+        
         df['DiasReserva'] = (df['CheckOutPrevisao'] - df['CheckInPrevisao']).dt.days
         df['QuantidadeCrianca'] = df['QuantidadeCrianca1'] + df['QuantidadeCrianca2']
 
