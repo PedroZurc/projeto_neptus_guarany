@@ -12,8 +12,8 @@ class MyModel(BaseModel):
             verbose=False  # Para evitar muitos prints durante o treino
         )
 
-    def train(self, X, y, cat_features=None):
-        cat_features = cat_features if cat_features is not None else []
+    def train(self, X, y, cat_features=None, **kwargs):
+        self.model = CatBoostClassifier(**kwargs)
         self.model.fit(X, y, cat_features=cat_features)
 
         
